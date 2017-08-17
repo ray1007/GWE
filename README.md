@@ -1,6 +1,6 @@
 # Glyph-enhanced Word Embedding (GWE)
 
-This is the code of the following [paper]()
+This is the code of the following [paper](https://arxiv.org/abs/1708.04755)
 ```
 bib to be put... 
 ```    
