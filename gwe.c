@@ -1077,7 +1077,7 @@ int main(int argc, char **argv) {
     printf("\t\tSet the window size used to predict character embeddings, default is 5\n");
 
     printf("\nExamples:\n");
-    printf("./cwe -train data.txt -output-word vec.txt -output-char chr.txt -size 200 -window 5 -sample 1e-4 -negative 5 -hs 0 -cbow 1 -cwe-type 2 -iter 3\n\n");
+    printf("./gwe -train data.txt -output-word vec.txt -output-char chr.txt -use-glyph 2 char-glyph char_glyph_feat.txt --size 300 -window 5 -sample 1e-4 -negative 5 -hs 0 -cbow 1 -cwe-type 2 -iter 3\n\n");
     return 0;
   }
 
