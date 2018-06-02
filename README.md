@@ -33,7 +33,9 @@ This structure of this repository is described below:
 
 Commands:
 ```python
-make # compile GWE
+# compile GWE
+make 
 
 # train GWE
+./gwe -train data.txt -output-word vec.txt -output-char chr.txt -use-glyph 2 char-glyph char_glyph_feat.txt --size 300 -window 5 -sample 1e-4 -negative 5 -hs 0 -cbow 1 -cwe-type 2 -iter 3
 ```
